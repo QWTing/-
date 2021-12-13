@@ -1,0 +1,245 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.m0a {
+  margin: 0 auto;
+}
+
+.mr42 {
+  margin-right: 42px;
+}
+
+.mr52 {
+  margin-right: 52px;
+}
+
+.bg-main {
+  background-color: #424242;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bg-main img {
+  margin-left: 180px;
+  width: 117px;
+  height: 117px;
+}
+
+.bg-main .bmi-input {
+  color: #FFD366;
+  margin: 0 53px 0 97px;
+}
+
+.bg-main .bmi-input input {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.18);
+  border: 2px solid #FFD366;
+  border-radius: 10px;
+  width: 250px;
+  height: 40px;
+  font-size: 24px;
+  padding-left: 16px;
+  margin-top: 7px;
+}
+
+.bg-main .see-btn {
+  width: 300px;
+}
+
+.bg-main .btn {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  font-size: 24px;
+  color: #424242;
+  border: none;
+  background-color: #FFD366;
+  border-radius: 100%;
+}
+
+.bg-main .btn:hover {
+  -webkit-box-shadow: 0 1px 6px 3px rgba(255, 196, 50, 0.64);
+          box-shadow: 0 1px 6px 3px rgba(255, 196, 50, 0.64);
+}
+
+.bg-main .btn:active {
+  background-color: #DEA821;
+}
+
+.bg-main .result-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.bg-main .result-btn .bmi-value {
+  width: 123px;
+  height: 123px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.bg-main .result-btn p {
+  padding-top: 36px;
+  font-size: 32px;
+}
+
+.bg-main .result-btn em {
+  font-size: 14px;
+}
+
+.bg-main .result-btn h3 {
+  padding-left: 18px;
+  font-size: 32px;
+}
+
+.bg-main .result-btn .reset {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 3px solid #424242;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 100%;
+  bottom: 7px;
+  left: 88px;
+}
+
+.bg-main .result-btn .reset:hover {
+  -webkit-box-shadow: 0 1px 6px 3px rgba(193, 189, 179, 0.64);
+          box-shadow: 0 1px 6px 3px rgba(193, 189, 179, 0.64);
+}
+
+.bg-main .result-btn .reset:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.bg-bmi {
+  text-align: center;
+  background-color: #e4e2e2;
+  min-height: 624px;
+  padding-bottom: 58px;
+}
+
+.bg-bmi h2 {
+  padding-top: 48px;
+  padding-bottom: 20px;
+  font-size: 24px;
+}
+
+.bg-bmi li {
+  width: 624px;
+  margin: 0 auto;
+  line-height: 62px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #424242;
+  background-color: #fff;
+  border-radius: 7px;
+  margin-top: 16px;
+}
+
+.bg-bmi li h3 {
+  text-align: left;
+  font-size: 20px;
+  width: 80px;
+  margin-right: 30px;
+  margin-left: 12px;
+}
+
+.bg-bmi li span {
+  font-size: 12px;
+  margin-right: 7px;
+}
+
+.bg-bmi li p {
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #FFD366;
+  text-align: center;
+  height: 90px;
+}
+
+.footer img {
+  height: 55px;
+  width: 55px;
+  margin-top: 18px;
+}
+/*# sourceMappingURL=all.css.map */
